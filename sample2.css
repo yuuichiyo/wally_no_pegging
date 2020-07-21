@@ -1,0 +1,42 @@
+body{
+	background: repeating-linear-gradient(
+    0deg,     /* 角度の指定 */
+    #f00,      /* 色A ... 開始 */
+    #f00 3px,  /* 色A ... 終了 */
+    white 3px,      /* 色B ... 開始 */
+    white 6px   /* 色B ... 終了 */
+  );
+}
+
+h1{
+	background-color: #fadada;
+	color:#f00;
+	font-size: 5em;
+	font-weight: bold;
+	text-shadow:3px 4px 2px silver;
+	width:1100px;
+	font-family:"cursive", "YuGothic","Yu Gothic","Meiryo","ヒラギノ角ゴ" ;
+	text-align:center;
+	margin-right: auto;
+	margin-left:auto;
+	
+}
+#aniv{
+	width:1100px;
+	margin-right: auto;
+	margin-left:auto;
+
+
+}
+
+a{
+	background-color: white;
+	color:blue;
+	font-size:1.2em;
+	float:right;
+	margin-bottom:10px;
+}
+
+svg{
+	overflow: visible;
+}
